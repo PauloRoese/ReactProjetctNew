@@ -1,0 +1,40 @@
+
+.btn-header{
+    background-color: blueviolet;
+    border: 1px solid;
+    color:rgb(206, 186, 11)
+}
+.btn-header:hover{
+    border: .1rem solid whitesmoke;
+    box-shadow: .2em .2em 5px black;
+}
+.btn-header:active{
+    border: none;
+    box-shadow: none;
+}
+
+.font-custom{
+    font-family: 'Squada One', cursive;
+    font-size: 25px !important;
+  }
+
+  .link-custom{
+      text-decoration: none !important;
+      color: green;
+      transition: opacity 2s;
+  }
+  .link-custom:hover{
+      background-color: black;
+      color: blueviolet;
+      transition:  1s;
+      opacity: 90% !important;
+  }
+  .link-custom:active{
+      background-color: green;
+    }
+  
+    .link-custom-li:hover{
+    background-color: black;
+    transition:  1s;
+    opacity: 30% ;
+    }

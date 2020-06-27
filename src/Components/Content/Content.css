@@ -1,0 +1,12 @@
+.tamanho-min-content{
+    min-width: 1000px !important;
+    min-height: 1000px !important;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 155px);
+    padding-bottom: 10px;
+  }
+  
