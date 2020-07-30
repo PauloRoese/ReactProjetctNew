@@ -2,6 +2,7 @@ import React from 'react';
 import '../Header/Header.css'
 import'./Header.css';
 import { NavLink }  from 'react-router-dom';
+import ButtonNav from '../Button/ButtonNav';
 
 
 const Header = () => {
@@ -38,7 +39,7 @@ const Header = () => {
                 </ul>
                 <form className="form-inline p-0 d-flex justify-content-between col-lg-3 col-sm-6 col-12">
                     <input className="form-control mr-sm-2 col-7" type="search" placeholder="Search" aria-label="Search" />
-                    <button className="btn btn-header my-2 my-sm-0 col-sm-3 col-4 text-center" type="button">Search</button>
+                    <ButtonNav className="btn btn-header my-2 my-sm-0 col-sm-3 col-4 text-center" type="button">Search</ButtonNav>
                 </form>
             </div>
         </nav>

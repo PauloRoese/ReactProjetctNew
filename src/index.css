@@ -12,3 +12,7 @@ code {
     monospace;
 }
 
+:root {
+  --primary : rgb(206, 186, 11);
+}
+
